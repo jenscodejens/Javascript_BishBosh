@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bish-Bosh 2.0</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet-override.css">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="row">
+            <div class="col-8 offset-1"></div>
+            <header class="row">
+                <div class="col">
+                    <header>Bish Bosh 2.0</header>
+                </div>
+            </header>
+            <main class="row">
+        </div>
+    </div>
+
+    <div class="inputbox">
+        <div class="col-12">
+            <label for="fname">Loopa till:</label>
+            <input type="text" id="loopnum" name="loopnum">
+        </div>
+        <div class="col-12">
+            <label for="fname">Första divisionstal:</label>
+            <input type="text" id="fdigit" name="fdigit">
+        </div>
+        <div class="col-12">
+            <label for="lname">Andra divisionstal:</label>
+            <input type="text" id="sdigit" name="sdigit">
+        </div>
+    </div>
+
+    <div class="outputbox">
+        <div class="row pt-1">
+            <div class="col text-center">
+                <button onclick="bishBosh()" class="mb-3">Beräkna</button>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="" id="result"></textarea>
+                </div>
+            </div>
+        </div>
+        </main>
+    </div>
+    <dev class="devider"></dev>
+    <footer class="footer">
+        &copyJens B.
+    </footer>
+    <script src="bishbosh.js"></script>
+</body>
+
+</html>
